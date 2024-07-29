@@ -1,0 +1,57 @@
+:root {
+    /*-----------------------------font-size------------------------*/
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-2md: 20px;
+    --fs-lg: 22px;
+    --fs-2lg: 24px;
+    --fs-xl: 26px;
+    --fs-xxl: 30px;
+    --fs-2xl: 32px;
+}
+
+.navIcons {
+    font-size: var(--fs-lg);
+}
+
+.hero-section-para {
+    font-size: var(--fs-2xl);
+}
+
+.discord-btn {
+    font-size: var(--fs-2lg);
+}
+
+.presale {
+    font-size: var(--fs-xxl);
+}
+
+.numbers {
+    font-size: var(--fs-2md);
+}
+
+.token-sold {
+    font-size: var(--fs-sm);
+}
+
+.buy-token-btn {
+    font-size: var(--fs-2lg);
+}
+
+.withdraw-tokens {
+    font-size: var(--fs-md);
+}
+
+.soft-cap {
+    font-size: var(--fs-md);
+}
+
+.counting {
+    font-size: var(--fs-2lg);
+}
+
+@media(min-width:576px) {
+    :root {
+        --fs-2xl: 72px;
+    }
+}
