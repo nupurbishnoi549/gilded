@@ -124,7 +124,6 @@ nav {
 .mt-60 {
     margin-top: 60px;
 }
-
 /*------------margin--------------*/
 /*--------------gap---------------*/
 .gap-16 {
@@ -142,6 +141,7 @@ nav {
 .gap-48 {
     gap: 48px;
 }
+
 /*--------------gap---------------*/
 /*-------------line---------------*/
 .line {
@@ -185,6 +185,7 @@ nav {
 .min-vh-100 {
     min-height: 100vh;
 }
+
 /*----------common class----------*/
 /*-------------col6---------------*/
 .hero-section-para {
@@ -210,10 +211,11 @@ nav {
 /*-------------col5-------------*/
 .card {
     width: 100%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     background-color: transparent;
     border: 1px solid lightgray;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .presale {
